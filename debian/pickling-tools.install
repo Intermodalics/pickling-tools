@@ -1,0 +1,4 @@
+src/lib*.so* usr/lib/
+src/{*.h,m2pythonpickler.cc} usr/include/pickling-tools/
+src/opencontainers_1_8_5/include usr/include/pickling-tools/opencontainers_1_8_5/
+usr/share/pkgconfig

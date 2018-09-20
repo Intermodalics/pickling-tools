@@ -1,0 +1,10 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+Name: pickling-tools
+Description: pickling-tools
+Version: 1.7-1
+Cflags: -I${includedir}/pickling-tools -I${includedir}/pickling-tools/opencontainers_1_8_5/include -DOC_NEW_STYLE_INCLUDES
+Libs: -L${libdir} -lptools

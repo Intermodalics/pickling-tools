@@ -1,0 +1,14 @@
+Pickling-tools C++ source code that can be packed into a debian package.
+
+Pickling Tools (version 1.7.0):
+
+This distribution contains tools to allow you to exchange information
+between C++ and Python and Java.  You can either exchange data between systems
+using files or sockets.
+
+This set of tools is called "PicklingTools" because the clients and
+servers talk to each other over sockets via tables that are "pickled":
+Pickling is Python name for serialized data.
+
+See the Documentation at http://www.picklingtools.com
+
